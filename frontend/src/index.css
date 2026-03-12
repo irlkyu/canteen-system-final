@@ -1,0 +1,27 @@
+@import
+url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;70
+0&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+background: #FFFFF5;
+font-family: Poppins, sans-serif;
+}
+.bento-card {
+background: rgba(255, 247, 215, 0.85);
+backdrop-filter: blur(12px);
+border-radius: 16px;
+padding: 24px;
+
+box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+border: 1px solid rgba(228,155,86,0.2);
+}
+.btn-primary { @apply bg-canteen-primary text-white px-4 py-2 rounded-2xl
+font-medium hover:opacity-90 transition-all; }
+.btn-success { @apply bg-canteen-success text-white px-4 py-2 rounded-2xl
+font-medium hover:opacity-90 transition-all; }
+.btn-error { @apply bg-canteen-error text-white px-4 py-2 rounded-2xl
+font-medium hover:opacity-90 transition-all; }
+.btn-warning { @apply bg-canteen-warning text-black px-4 py-2 rounded-2xl
+font-medium hover:opacity-90 transition-all; }
